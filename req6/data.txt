@@ -1,0 +1,11 @@
+10
+0 Romy 11
+1 peter 10
+2 lol 5
+3 mark 20
+4 bemoi 60
+5 koko 10
+6 soso 2
+7 pop 3
+8 nana 6
+9 sasa 8

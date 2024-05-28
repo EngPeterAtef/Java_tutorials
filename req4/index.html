@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix</title>
+    <style>
+        body{
+            background-color:#f0f0f0 ;
+            text-align: center;
+        }
+        textarea{
+        width: 50%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize:both;
+        }
+        strong{
+            font-size: 1.5em;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="MatRequest" method="GET">
+        <h1><strong>Matrix Operations</strong></h1>
+        <textarea name="num" placeholder="Enter the numbers"></textarea>
+        <hr>
+        <br>
+        <input type="checkbox" id="trans" name="trans" value="t">
+        <label for="trans">Transpose</label>
+        <input type="checkbox" id="det" name="det" value="d">
+        <label for="det">Determinant</label>
+        <br>
+        <br>
+        <input type="submit" value="Calculate" />
+    </form>
+    <!-- <h1><strong>Results</strong></h1>
+    <h1>Original Matrix</h1>
+    <div class="orgMat"></div>
+    <h1>Determinant</h1>
+    <div clas="det"></div>
+    <h1>Transpose</h1>
+    <div class="trans"></div> -->
+</html>
